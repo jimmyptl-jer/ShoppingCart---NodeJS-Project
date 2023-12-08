@@ -2,7 +2,7 @@ const express = require('express');
 const path = require('path');
 const app = express();
 const database = require('./util/database');
-const PORT = 3001;
+const PORT = 3000;
 const { sequelize } = require('./util/database'); // Import sequelize from your database module
 
 // Set the view engine and views directory
